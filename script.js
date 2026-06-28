@@ -16,7 +16,7 @@ generate.addEventListener("click", () => {
         Birthday: `🥳 Wishing you a day full of joy and laughter! May this day bring you happiness! Enjoy your special day! 🎁`,
         Wedding: `❤️ Congratulations on your special day! Wishing you and your partner a lifetime of love, happiness, and many memories together! 💍`,
         Valentines: `💘 Wishing you a Valentine's Day filled with love, laughter, and happiness. May your heart always be full of love. 💝`,
-        // Friendship: `😃 Thank you for being such an amazing friend. Wishing you an endless amount of happiness. 😃`,
+        Christmas: `🎄 Wishing you a warm, happy and wonderful day with the people that you love! 🎁`,
         Anniversary: `💕 May our love grow stronger each day. Wishing you many more moments together 💞`,
         Graduation: `🎓 Congratulations on graduating! Your hard work has paid off. Wishing you success and happiness in your next steps 📜`,
         Mother: `🌷 Thank you for your love, kindness and support. Wishing you a day filled with happiness. 🌹`,
@@ -50,20 +50,20 @@ generate.addEventListener("click", () => {
         heading.style.fontSize = "20px"
         details.style.color = "black";
     }
-    
-    // else if (themevalue === "Friendship") {
-    //     heading.textContent = `Happy Friendship Day, ${textvalue}!`
-    //     heading.style.fontSize = "20px"
-    //     details.style.color = "black";
-    // }
 
-        else if (themevalue === "Anniversary") {
+    else if (themevalue === "Christmas") {
+        heading.textContent = `Merry Christmas, ${textvalue}!`
+        heading.style.fontSize = "20px"
+        details.style.color = "black";
+    }
+
+    else if (themevalue === "Anniversary") {
         heading.textContent = `Happy Anniversary, ${textvalue}!`
         heading.style.fontSize = "22px"
         details.style.color = "black";
     }
 
-        else if (themevalue === "Graduation") {
+    else if (themevalue === "Graduation") {
         heading.textContent = `Congratulations, ${textvalue}!`
         heading.style.fontSize = "22px"
         details.style.color = "black";
@@ -75,7 +75,7 @@ generate.addEventListener("click", () => {
         details.style.color = "black";
     }
 
-        else if (themevalue === "Father") {
+    else if (themevalue === "Father") {
         heading.textContent = `Happy Father's Day, ${textvalue}!`
         heading.style.fontSize = "22px"
         details.style.color = "black";
@@ -96,11 +96,11 @@ document.addEventListener("keydown", (event) => {
             Birthday: `🥳 Wishing you a day full of joy and laughter! May this day bring you happiness! Enjoy your special day! 🎁`,
             Wedding: `❤️ Congratulations on your special day! Wishing you and your partner a lifetime of love, happiness, and many memories together! 💍`,
             Valentines: `💘 Wishing you a Valentine's Day filled with love, laughter, and happiness. May your heart always be full of love. 💝`,
-            // Friendship: `😃 Thank you for being such an amazing friend. Wishing you an endless amount of happiness. 😃`,
+            Christmas: `🎄 Wishing you a warm, happy and wonderful day with the people that you love! 🎁`,
             Anniversary: `💕 May our love grow stronger each day. Wishing you many more moments together 💞`,
-            Graduation: `🎓 Congratulations on graduating! Your hard work paid off. Wishing you success and happiness in your next steps 📜`,
+            Graduation: `🎓 Congratulations on graduating! Your hard work has paid off. Wishing you success and happiness in your next steps 📜`,
             Mother: `🌷 Thank you for your love, kindness and support. Wishing you a day filled with happiness. 🌹`,
-            Father: ` 🩵Thank you for your strength, encouragement and support. Wishing you a day filled with happiness. 💙`,
+            Father: `🩵 Thank you for your strength, encouragement and support. Wishing you a day filled with happiness. 💙`,
         }
 
         if (textvalue.trim() === "") {
@@ -126,11 +126,12 @@ document.addEventListener("keydown", (event) => {
             details.style.color = "black";
         }
 
-        // else if (themevalue === "Friendship") {
-        //     heading.textContent = `🤗 Happy Friendship day, ${textvalue}!`
-        //     heading.style.fontSize = "20px"
-        //     details.style.color = "black";
-        // }
+        
+        else if (themevalue === "Christmas") {
+            heading.textContent = `Merry Christmas, ${textvalue}!`
+            heading.style.fontSize = "20px"
+            details.style.color = "black";
+    }
 
         else if (themevalue === "Anniversary") {
             heading.textContent = `💓 Happy Anniversary, ${textvalue}!`
