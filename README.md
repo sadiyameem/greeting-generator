@@ -1,7 +1,7 @@
 # Greeting Generator
 
 # Description
-- This generator allows user to make a card for different holidays. Users can enter a name, choose a theme, and generate a special message and download it to share.
+- This generator allows user to make a message for different holidays. Users can enter a name, choose a theme, and generate a special message and download it to share.
 
 # Features
   - Create message
