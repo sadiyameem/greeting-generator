@@ -7,7 +7,7 @@ body {
     width: 100%;
     overflow: hidden;
     flex-direction: column;
-    background-color: yellow;
+    background-color: #ff9f90;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -58,19 +58,19 @@ button {
     border: none;
     outline: none;
     text-shadow: 0px 0px 3px #000000;
-    background-color: pink;
+    background-color: #438efa;
     color: #ffffff;
     transition: 0.2s ease-in-out;
 }
 
 button:hover {
-    background-color: black;
-    box-shadow: 0px 0px 3px yellow;
-    text-shadow: 0px 0px 1px yellow;
+    background-color: #5f2547;
+    box-shadow: 0px 0px 3px #29a6e0;
+    text-shadow: 0px 0px 1px #29a6e0;
 }
 
 #card {
-    background-color: cyan;
+    background-color: #9af8ba;
     color: black;
     border-radius: 10px;
     padding: 9px;
@@ -85,7 +85,7 @@ button:hover {
     overflow: hidden;
     width: 100%;
     box-sizing: border-box;
-    border: 1px red double;
+    border: 1px #bc15ce double;
     border-bottom: none;
 }
 
@@ -94,7 +94,7 @@ button:hover {
     margin: 0;
     padding: 0px 15px;
     padding-bottom: 15px;
-    border: 1px red double;
+    border: 1px #bc15ce double;
     border-top: none;
 }
 
