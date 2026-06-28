@@ -151,7 +151,7 @@ document.addEventListener("keydown", (event) => {
             details.style.color = "black";
         }
         else if (themevalue === "Father") {
-            heading.textContent = `🔧 Happy Father's Day, ${textvalue}!`
+            heading.textContent = `🩵 Happy Father's Day, ${textvalue}!`
             heading.style.fontSize = "22px"
             details.style.color = "black";
         }
