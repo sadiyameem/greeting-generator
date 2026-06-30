@@ -5,7 +5,7 @@ const generate = document.getElementById("generate");
 const download = document.getElementById("download");
 const heading = document.getElementById("card-title");
 const details = document.getElementById("card-greeting");
-const container = document.getElementById("container")
+const container = document.getElementById("container");
 
 generate.addEventListener("click", () => {
     container.style.marginLeft = "36%"
