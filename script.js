@@ -18,7 +18,7 @@ generate.addEventListener("click", () => {
         Valentines: `💘 Wishing you a Valentine's Day filled with love, laughter, and happiness. May your heart always be full of love. 💝`,
         Christmas: `🎄 Wishing you a warm, happy and wonderful day with the people that you love! 🎁`,
         Anniversary: `💕 May our love grow stronger each day. Wishing you many more moments together 💞`,
-        Graduation: `🎓 Congratulations on graduating! Your hard work has paid off. Wishing you success and happiness in your next steps 📜`,
+        Graduation: `🎓 Congrats on graduating! Your hard work paid off. Wishing you success in your next steps 📜`,
         Mother: `🌷 Thank you for your love, kindness and support. Wishing you a day filled with happiness. 🌹`,
         Father: `🩵 Thank you for your strength, encouragement and support. Wishing you a day filled with happiness. 💙`,
     }
@@ -191,3 +191,22 @@ handleThemeToggle = () => {
 themeToggleBtn.addEventListener('click', () => {
     handleThemeToggle();
 });
+
+let btn = document.getElementById('btn');
+let output = document.getElementById('output');
+let quotes = [
+    "The word “holiday” comes from the Old English word “hāligdæg,” which means “holy day.”",
+    "Halloween originated from the Celtic festival of Samhain, which celebrated the end of the harvest season.",
+    "The first Thanksgiving was celebrated by the Pilgrims in 1621 in Plymouth, Massachusetts.",
+    "In Norway, it is traditional to hide brooms on Christmas Eve to prevent witches from stealing them.",
+    "The tradition of blowing out candles on a birthday cake dates back to ancient Greece.",
+    "In Greece, it is traditional to leave a piece of cake on the doorstep on Christmas Eve as a symbol of hospitality.",
+    "In Austria, it is traditional to leave a pickle on the Christmas tree, and the first person to find it receives a special gift.",
+    "In the Netherlands, Sinterklaas (Santa Claus) arrives by boat and is accompanied by his helpers, who are dressed in blackface.",
+    "In the United States, Memorial Day is celebrated on the last Monday in May to honor those who have died while serving in the military.",
+];
+
+btn.addEventListener('click', function() {
+    var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+    output.innerHTML = randomQuote;
+})
