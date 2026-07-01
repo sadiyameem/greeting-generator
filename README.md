@@ -23,7 +23,7 @@
   - A challenge I faced was making sure the themes had its own message since at one point I saw duplicates so I had to make sure that each holiday had the correct heading.
   - Another challenge I faced was adding the time, date, and a theme toggle with out looking at a tutorial.
   - I learned how to organized code and look carefully for errors.
-  - I also learned that transform helps move a container without affecting the layout.
+  - I also learned that transform helps move a container without affecting the layout and I was able to use that for the fun fact generator.
  
 # Image
  <img width="1102" height="380" alt="Screenshot 2026-06-28 at 1 45 16 PM" src="https://github.com/user-attachments/assets/6bc25e07-23b4-4808-9c12-50ca68f87f48" />
