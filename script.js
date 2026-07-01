@@ -167,3 +167,27 @@ download.addEventListener("click", () => {
         link.click();
     });
 });
+
+function updateTime() {
+    var currentTime = new Date().toLocaleString();
+    var TimeText = document.querySelector("#timeElement");
+    TimeText.innerHTML = currentTime;
+}
+setInterval(updateTime, 1000);
+
+const themeToggleBtn = document.querySelector('.theme-toggle');
+const darktheme = localStorage.getItem('theme');
+darktheme && document.body.classList.add(darktheme);
+
+handleThemeToggle = () => {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('theme', 'dark-mode');
+    } else {
+        localStorage.removeItem('theme')
+    }
+};
+
+themeToggleBtn.addEventListener('click', () => {
+    handleThemeToggle();
+});
